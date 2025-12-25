@@ -1,0 +1,4 @@
+User-agent:*
+Allow: /
+
+Site: https://temirbolatnalibaev555-hub.github.io/MyPortfolioSite/sitemap.xml
