@@ -1,0 +1,20 @@
+{
+  "name": "My Portfolio Site",
+  "short_name": "Portfolio",
+  "start_url": "/MyPortfolioSite/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#005fcc",
+  "icons": [
+    {
+      "src": "img/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "img/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Портфолио веб-разработчика — Главная</title>
+
+  <!-- SEO -->
+  <meta name="description" content="Персональное портфолио веб-разработчика: проекты, навыки, контакты.">
+  <meta name="keywords" content="портфолио, веб-разработчик, HTML, CSS, GitHub Pages">
+  <meta name="author" content="Ваше имя">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://username.github.io/MyPortfolioSite/">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Портфолио веб-разработчика">
+  <meta property="og:description" content="Проекты, навыки и контакты веб-разработчика">
+  <meta property="og:image" content="https://username.github.io/MyPortfolioSite/img/og-preview.webp">
+  <meta property="og:url" content="https://username.github.io/MyPortfolioSite/">
+  <meta property="og:type" content="website">
+
+  <!-- Favicon -->
+  <link rel="icon" href="img/favicon-32x32.png">
+
+  <!-- PWA -->
+  <link rel="manifest" href="manifest.json">
+
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Google Analytics (замени ID) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-XXXXXXXXXX');
+  </script>
+
+  <!-- Schema.org -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Ваше имя",
+    "url": "https://username.github.io/MyPortfolioSite/",
+    "jobTitle": "Веб-разработчик",
+    "sameAs": [
+      "https://github.com/username"
+    ]
+  }
+  </script>
+</head>
+
+<body>
+<header>
+  <nav>
+    <a href="index.html">Главная</a>
+    <a href="about.html">Обо мне</a>
+    <a href="contact.html">Контакты</a>
+  </nav>
+</header>
+
+<main>
+  <h1>Портфолио веб-разработчика</h1>
+
+  <section>
+    <h2>Обо мне</h2>
+    <img src="img/profile.webp" alt="Портрет веб-разработчика" width="300" height="300">
+    <p>Я начинающий веб-разработчик, создаю сайты на HTML и CSS.</p>
+  </section>
+
+  <section>
+    <h2>Проекты</h2>
+    <div class="projects">
+      <img src="img/project1.webp" alt="Проект лендинг" loading="lazy" width="300" height="200">
+      <img src="img/project2.webp" alt="Проект многостраничный сайт" loading="lazy" width="300" height="200">
+      <img src="img/project3.webp" alt="Проект портфолио" loading="lazy" width="300" height="200">
+    </div>
+  </section>
+
+  <section>
+    <h2>Рекомендуем посмотреть</h2>
+    <ul>
+      <li><a href="about.html">Подробнее обо мне</a></li>
+      <li><a href="contact.html">Связаться со мной</a></li>
+    </ul>
+  </section>
+</main>
+
+<footer>
+  <p>© 2025 Моё портфолио</p>
+</footer>
+</body>
+</html>
